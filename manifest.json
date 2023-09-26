@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Softly",
+  "version": "1.0",
+  "author": "Nitesh Tyagi", 
+  "description": "The world is harsh enough, speak Softly",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "inactive.png",
+    "default_title": "Softly"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
