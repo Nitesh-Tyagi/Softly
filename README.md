@@ -14,6 +14,8 @@ The Softly Chrome Extension provides a user-friendly way to promote positive com
 - Red Icon: Extension Inactive
 - Green Icon: Extension Active (Words Replacement Enabled)
 
+Click on the Icon (S) in the extensions toolbar to toggle states.
+
 ## Supported Tags
 - 'p'
 - 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
